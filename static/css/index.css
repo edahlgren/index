@@ -1,0 +1,43 @@
+@font-face { font-family: Divona; src: url('../fonts/divona.ttf'); }
+@font-face { font-family: Majetto; src: url('../fonts/majetto.ttf'); }
+@font-face { font-family: Neou; src: url('../fonts/Neou-Bold.ttf'); }
+@font-face { font-family: Basic; src: url('../fonts/basictitlefont.ttf'); }
+body {
+    font-family: Neou;
+
+    font-size: 12pt;
+    color: #113;
+    background-color: #fafafa;
+}
+
+#cont {
+    margin: 5px auto;
+    width: 500px;
+}
+
+p {
+    margin: 13px 0;
+}
+
+.title {
+    font-family: Neou;
+    font-size: 32px;
+    margin: 0 auto;
+    padding: 75px 0 50px 0;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #707070;
+}
+
+.links {
+    width: 300px
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.link {
+    margin-top: 20px;
+}
